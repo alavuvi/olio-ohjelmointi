@@ -1,5 +1,6 @@
 #include "funktiot.h"
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 
@@ -18,7 +19,8 @@ void calcDiv(int luku1, int luku2)
         cout << "Nollalla ei voida jakaa!" << endl;
     }
     else {
-        int osam = luku1 / luku2;
+        float osam = static_cast<float>(luku1) / luku2;
+        cout << fixed << setprecision(2);
         cout << "Lukujen osamaara on: " << osam << endl;
     }
 }

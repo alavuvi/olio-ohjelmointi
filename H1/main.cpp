@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 #include "funktiot.h"
 
 using namespace std;
