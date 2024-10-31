@@ -21,15 +21,12 @@ void calcDiv(int luku1, int luku2)
         int osam = luku1 / luku2;
         cout << "Lukujen osamaara on: " << osam << endl;
     }
-
-
 }
 
 // funktio retSum ottaa vastaan kaksi kokonaislukua ja palauttaa niiden summan, mutta ei tulosta mitään
 int retSum(int luku1, int luku2)
 {
     return luku1 + luku2;
-
 }
 
 // funktio retDiv ottaa vastaan kaksi kokonaisluka ja palauttaa niiden osamäärän (float), mutta ei tulosta mitään

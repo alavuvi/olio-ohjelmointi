@@ -18,7 +18,6 @@ int main()
     calcSum(luku1, luku2);
     calcDiv(luku1, luku2);
 
-
     // kutsutaan ret-funktiot ja tulostetaan niiden palauttamat arvot
     cout << "Palautettu summa:" << retSum(luku1, luku2) << endl;
     cout << "Palautettu osamaara:" << retDiv(luku1, luku2) << endl;

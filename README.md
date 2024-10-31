@@ -1,5 +1,5 @@
 # Olio-ohjelmointi ja oliopohjainen suunnittelu -kurssin harjoitustehtävät
-Harjoitukset löytyvät omista kansioistaan H1 jne.
+Harjoitukset löytyvät omista kansioistaan H1, H2 jne.
 
 ## Harjoitus1 (cout, cin, funktio)
 Kirjoita C++-sovellus, joka kysyy kaksi kokonaislukua (a ja b) ja tulostaa niiden summan ja osamäärän. Osamäärä tulostetaan kahdella desimaalilla.
