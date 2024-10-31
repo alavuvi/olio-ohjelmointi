@@ -35,7 +35,7 @@ float retDiv(int luku1, int luku2)
     if (luku1 != 0) {
         return static_cast<float>(luku1) / luku2;
     } else {
-        cout << "Nollalla jakaminen ei voida jakaa!" << endl;
+        cout << "Nollalla ei voida jakaa!" << endl;
         return 0;
     }
 }
