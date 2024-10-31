@@ -32,7 +32,7 @@ int retSum(int luku1, int luku2)
 // funktio retDiv ottaa vastaan kaksi kokonaisluka ja palauttaa niiden osamäärän (float), mutta ei tulosta mitään
 float retDiv(int luku1, int luku2)
 {
-    if (luku1 != 0) {
+    if (luku2 != 0) {
         return static_cast<float>(luku1) / luku2;
     } else {
         cout << "Nollalla ei voida jakaa!" << endl;
