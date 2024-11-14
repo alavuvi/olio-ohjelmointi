@@ -10,8 +10,8 @@ int main()
     Animal *objectAnimal=new Animal;
     objectAnimal->callOut();
 
-    // delete objectAnimal; // nämä on kommentoituna, koska näyttää, että aliluokan destruktoria kutsuttaessa se kutsuu myös ylemmän Animal-luokan destruktorin. Todennäköisesti toimii siis kuten pitää.
-    // objectAnimal=nullptr;
+    delete objectAnimal; // Näyttää, että aliluokan destruktoria kutsuttaessa se kutsuu myös ylemmän Animal-luokan destruktorin.
+    objectAnimal=nullptr; // Todennäköisesti toimii siis kuten pitää, eli Animal olio tuhotaan nyt oman kutsunsa jälkeen ja vielä uudelleen Dog-olion kutsun jälkeen
 
     //luodaan Dog olio, kutsutaan callOut-funktio ja lopuksi tuhotaan olio
     Dog *objectDog=new Dog;

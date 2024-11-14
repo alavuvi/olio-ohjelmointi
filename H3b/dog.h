@@ -6,7 +6,7 @@ class Dog : public Animal
 {
 public:
     Dog();
-    virtual ~Dog();
+    ~Dog();
     virtual void callOut() override;
 };
 
