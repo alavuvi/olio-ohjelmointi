@@ -9,6 +9,7 @@ ExampleClass::ExampleClass(QObject *parent) {
 
 // Tämä funktio lisää 1000ms viiveen sayHelloSlotin "Terve" tulosteeseen.
 // Jos rivin kommentoi, niin Terve tulostuu Start ja End tekstien väliin, viiveen kanssa niiden alle.
+// viivettä voi muuntaa msleep argumenttia muuttamalla.
 void ExampleClass::startToWait()
 {
     QThread::msleep(1000);

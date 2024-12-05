@@ -12,7 +12,9 @@ class ExampleClass : public QObject
     Q_OBJECT
 
 public:
-    ExampleClass(QObject* parent = nullptr);
+    //lisäsin tähän explicit.
+    //toimi kyllä ilmankin, mutta näin pitäisi rajoittaa implisiivistä muuntamista.
+    explicit ExampleClass(QObject* parent = nullptr);
 
     void startToWait();
 
