@@ -13,7 +13,7 @@ class ExampleClass : public QObject
 
 public:
     //lisäsin tähän explicit.
-    //toimi kyllä ilmankin, mutta näin pitäisi rajoittaa implisiivistä muuntamista.
+    //toimi kyllä ilmankin, mutta näin pitäisi estää konstruktorin muuntaminen?
     explicit ExampleClass(QObject* parent = nullptr);
 
     void startToWait();
